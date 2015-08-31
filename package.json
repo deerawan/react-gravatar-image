@@ -12,9 +12,9 @@
   "author": "Budi Irawan <deerawan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "jsx src/gravatar.jsx > gravatar.js",
-    "prepublish": "npm run build",
-    "test": "jest"
+    "build": "jsx src/gravatar.jsx > gravatar.js && browserify -t reactify demo/source.js -o demo/dist.js",
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
