@@ -1,6 +1,6 @@
-React Gravatar
+React Gravatar Image
 ================================
-A react component to show gravatar thumbnail
+A react component to show Gravatar image
 
 ## Install
 ```
