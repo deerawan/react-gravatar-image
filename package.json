@@ -1,11 +1,12 @@
 {
-  "name": "react-gravatar",
+  "name": "react-gravatar-image",
   "version": "1.0.0",
-  "description": "A react component to show gravatar thumbnail",
+  "description": "A react component to show gravatar image",
   "keywords": [
     "react-component",
     "react",
-    "gravatar"
+    "gravatar",
+    "gravatar-image"
   ],
   "main": "gravatar.js",
   "author": "Budi Irawan <deerawan@gmail.com>",
@@ -17,13 +18,17 @@
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
-    "unmockedModulePathPatterns": ["<rootDir>/node_modules/react", "<rootDir>/node_modules/md5"]
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/md5"
+    ]
   },
   "dependencies": {
     "md5": "^2.0.0",
     "react": "^0.13.3"
   },
   "devDependencies": {
+    "browserify": "^11.0.1",
     "jest": "^0.1.40",
     "jest-cli": "^0.4.10",
     "react-tools": "^0.13.3",
