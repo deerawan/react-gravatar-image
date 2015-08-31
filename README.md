@@ -42,6 +42,6 @@ More detail explanation about Gravatar options please [click here](http://en.gra
 Example syntax using all options
 
 ```javascript
-<Gravatar email="deerawan@gmail.com" size="200" defaultImage="404" forceDefault="y" rating="pg" />
+<Gravatar email="deerawan@gmail.com" size="200" defaultImage="404" forceDefault="y" rating="pg" ssl="true" />
 ```
 
