@@ -4,7 +4,7 @@ A react component to show gravatar thumbnail
 
 ## Install
 ```
-npm install react-gravatar --save
+npm install react-gravatar-image --save
 ```
 
 ## Usage
