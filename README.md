@@ -10,7 +10,7 @@ npm install react-gravatar-image --save
 ## Usage
 ```javascript
 var React = require('React');
-var Gravatar = require('../gravatar');
+var Gravatar = require('react-gravatar-image');
 
 var App = React.createClass({
   render: function() {
@@ -44,4 +44,7 @@ Example syntax using all options
 ```javascript
 <Gravatar email="deerawan@gmail.com" size="200" defaultImage="404" forceDefault="y" rating="pg" ssl="true" />
 ```
+
+## License
+[MIT License](http://opensource.org/licenses/MIT)
 

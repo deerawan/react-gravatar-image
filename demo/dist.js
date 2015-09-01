@@ -20,7 +20,6 @@ var App = React.createClass({displayName: "App",
           React.createElement(Gravatar, {email: "xxxxxxx@gmail.com", defaultImage: "mm"})
         )
       )
-
     );
   }
 });
